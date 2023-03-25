@@ -1,0 +1,22 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kolya-kyb/CLI-application.git",
+  "author": "kolya <kybiyevych97@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "bson-objectid": "^2.0.3",
+    "commander": "^10.0.0",
+    "nanoid": "3.3.4"
+  }
+}
